@@ -1,0 +1,113 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*
+	Font's import hear
+*/
+	@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Oswald&display=swap');
+/*
+	End of the font imports
+*/
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+#title {
+	text-align: center;
+	font-family: 'Bungee Spice', cursive;
+	filter: drop-shadow(
+		5px 5px 10px #000
+	);
+	transition: all .6s;
+}
+
+#title:hover {
+	filter: drop-shadow(
+		5px 5px 10px #0f0
+	);
+}
+
+header {
+	border-bottom: solid 15px #000;
+	border-radius: 15px;
+}
+
+#Welcome-massege {
+	font-family: 'Oswald', sans-serif;
+	color: #000;
+	text-align: center;
+	margin-top: 15px;
+	border: solid 4px #000;
+	background-color: #eee;
+	border-radius: 15px;
+	width: max-content;
+}
+
+#Welcome-massege-box {
+	transition: all .3s;
+}
+
+#Welcome-massege-box:hover {
+	filter:drop-shadow(5px 5px 5px #000) ;
+}
+
+.btn-close {
+	transition: all .3s;
+}
+
+.btn-close:hover {
+	background-color: #F00;
+	border-radius: 15px;
+	border: solid #000 2px;
+}
+
+.navbar-toggler {
+	transition: all .2s;
+}
+
+.navbar-toggler:hover {
+	background-color: #3f6975;
+}
+
+.nav-link {
+	transition: all .4s;
+}
+
+.nav-link:hover {
+	background-color: #eee;
+}
+
+.navbar {
+	font-family: 'Oswald', sans-serif;
+}
+
+.page {
+	background-color: #eee;
+	font-family: 'Oswald', sans-serif;
+	margin-top: 20px;
+	border: solid #000 5px;
+	border-radius: 15px;
+	width: auto;
+	height: auto;
+	margin-bottom: 20px;
+}
+
+.page h2 {
+	text-align: center;
+}
+
+footer {
+	margin-top: auto;
+	text-align: center;
+	background-color: #c4c4c4;
+	border: solid #000 1px;
+	border-radius: 15px;
+	box-shadow: 5px 5px 5px #000;
+}
+
+.img-fluid {
+	height: 50px;
+}
